@@ -200,6 +200,7 @@
     content: |
       [Unit]
       Description=Pulp Worker Services
+      PartOf=foreman.target
       [Install]
       WantedBy=foreman.target
 
